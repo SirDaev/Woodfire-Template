@@ -48,6 +48,14 @@ ul.navbar-nav {
 	}
 }
 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #3f2a0c;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
 .navbar-brand img {
 	width: 185px;
 	height: auto;

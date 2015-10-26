@@ -56,6 +56,12 @@ ul.navbar-nav {
     border-color: #fff;
 }
 
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+	}
+}
+
 .navbar-brand img {
 	width: 185px;
 	height: auto;

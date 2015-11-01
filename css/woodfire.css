@@ -131,6 +131,20 @@ ul.navbar-nav {
 	color: #fff;
 }
 
+@media (max-width: 600px) {
+	.carousel-caption h1 {
+		font-size: 30px;
+	}
+	
+	.carousel-detail {
+		display: none;
+	}
+
+	.carousel-caption {
+		height: 100%;
+	}
+}
+
 .carousel-control img {
 	top: 50%;
 	position: absolute;
